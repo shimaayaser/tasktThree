@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class task1 : MonoBehaviour
 {
+    // 2024
     // Start is called before the first frame update
     void Start()
     {
+
         int count=0;
         while(count<=10){
             int num=Random.Range(1,21);
