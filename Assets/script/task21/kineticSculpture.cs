@@ -6,8 +6,9 @@ public class kineticSculpture : MonoBehaviour
 {
     
     public GameObject[] cubes;
+   
     void Start(){
-        
+
     }
     
     void Update()
@@ -16,6 +17,7 @@ public class kineticSculpture : MonoBehaviour
           float yNew = Mathf.Sin(Time.time*0.025f);
           cube.transform.rotation = Quaternion.Euler(new Vector3(0,yNew *360f, 0));
         } 
+
         
       
     }
